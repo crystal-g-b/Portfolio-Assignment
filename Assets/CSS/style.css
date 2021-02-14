@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #F7F4F2;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    padding: 20px;
+    background-color: #b7a2a0;
+    color: #7C6362;
+    font-size: 20 px;
+    height: 100px
+}
+
+header {
+    text-transform: uppercase;
+    display: inline-block
+}
+
+.container ul {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    float: right;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.container li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+main {
+    margin-top: .5%;
+    float: left;
+    max-height: 1100px;
+    max-width: 900px;
+}
+
+.descriptions {
+    max-width: 800px;
+}
+
+.descriptions section {
+    height: 200px;
+}
+
+.deployed {
+    height: 400px;
+}
+
+#refactor img {
+    height: 200px;
+    width: 800px;
+    object-fit: cover;
+}
+
+#bio img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+#fan img {
+    height: 200px;
+    width: 400px;
+    object-fit: scale-down;
+    float: right;
+}
+
+aside {
+  float:left;
+  max-height: 1100px;
+}
+
+aside img {
+    max-height: 1100px;
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#aboutMe {
+    margin-top: .5%;
+}
+
+.titles {
+    float: right;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #7C6362;
+}
+
+.titles section {
+    height: 200px;
+    border-right: 6px #7C6362;
+}
+
+#stack {
+    height: 400px;
+}
+
+
+
+.subtitle {
+    padding: 20px;
+    background-color: #F7F4F2;
+    font-family: 'Poppins', sans-serif;
+    color: #7C6362;
+    height: 75px;
+}
+
+hr {
+    color: #7C6362;
+    height: 3px;
+    background-color: #7C6362;
+    width: 70%;
+    float: right;
+}
+
+.subtitle header {
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+    color: #7C6362;
+}
+
+
+
+
+
+
+
+
