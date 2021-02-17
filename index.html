@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="./Assets/images/shortcut-icon.png"/>
     <link rel="stylesheet" href="https:fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/newstyle.css">
     <title>Crystal's Portfolio</title>
 </head>
 
@@ -13,14 +14,15 @@
     <div class="container">
     <header>
         <h1>Crystal Barnett</h1>
-    </header>
-            <ul>
-                <li><a href="aboutMe">About Me |</a></li>
-                <li><a href="stack">Full Stack Web Development |</a></li>
-                <li><a href="fashion">Fashion Portfolio |</a></li>
-                <li><a href="resume">Resume |</a></li>
-            </ul>
+    </header>            
     </div>
+
+    <nav>
+        <a href="#" target="aboutMe">About Me |</a>
+        <a href="stack">Full Stack Web Development |</a>
+        <a href="fashion">Fashion Portfolio |</a>
+        <a href="#" target="resume">Resume |</a>
+    </nav>
     
 
     
@@ -32,27 +34,13 @@
     
     
         <aside>
-            <img src="Assets/images/me.png" alt="My Profile Picture"/>
-
-            <div class="titles">
-                <section class="me">
-                    <h2 id="aboutMe">About Me</h2>
-                </section>
-                <section class="full">
-                    <h2 id="stack">Full Stack Web Development</h2>
-                </section>
-                <section class="design">
-                    <h2 id="fashion">Fashion Portfolio</h2>
-                </section>
-                <section class="qualifiications">
-                    <h2 id="resume">Resume</h2>
-                </section>
-            </div>
+            <img src="Assets/images/me.png" alt="My Profile Picture">
         </aside>
     
         <main>
             <div class="descriptions">
                 <section class="biography">
+                    <h2 id="aboutMe">About Me</h2>
                     <p>
                         My name is Crystal Barnett and I am a Web Developer. I was born and raised in Jamaica and moved to the United States to further my education. After receiving my Bachelor's in Fashion Design, I remained in the United States to pursue my Fashion career.
                         <br>
@@ -60,45 +48,48 @@
                     </p>
                 </section>
 
-                <hr>
+                <!--hr-->
 
-                <section id="deployed">
-                    <div class="refactor">
-                        <img src="Assets/images/refactor.jpg" alt="dusting off tag"/>
-                        <h3><a href="https://crystal-g-b.github.io/Code-Refactor-Assignment/" target="_blank">Code Refactor</a></h3>   
-                    </div>
-                    <div class="bio">
+                <div class="deployed">
+                    <section class="refactor">
+                        <h2 id="stack">Full Stack Web Development</h2>
+                        <a href="https://crystal-g-b.github.io/Code-Refactor-Assignment/" target="_blank">Code Refactor</a>
+                        <img src="Assets/images/refactor.jpg" alt="dusting off tag"/> 
+                    </section>
+                    <section class="bio">
+                        <a href="https://crystal-g-b.github.io/06-HTML_CSS_Layout/html-bio-with-css.html" target="_blank">Student Bio: In class activity</a>
                         <img src="Assets/images/bio.png" alt="Bio Page"/>
-                        <h3><a href="https://crystal-g-b.github.io/06-HTML_CSS_Layout/html-bio-with-css.html" target="_blank">Student Bio: In class activity</a></h3>
-                    </div>
-                    <div class="fan">
-                        <img src="Assets/images/BTS-Logo.png" alt="BTS"/>
-                        <h3><a href="https://crystal-g-b.github.io/Fanpage" target="_blank">Fanpage Project</a></h3>
-                    </div>
-                </section>
+                    </section>
+                    <section class="fan">
+                        <a href="https://crystal-g-b.github.io/Fanpage" target="_blank">Fanpage Project</a>
+                        <img src="Assets/images/BTS-Logo.png" alt="BTS"/>                       
+                    </section>
+                </div>
 
-                <hr>
+                <!--hr-->
 
                 <section class="portfolio">
-                    <p>In my <a href="https://crystalbarnett1.wixsite.com/myportfolio" target="_blank">portfolio</a> you will find collections complete with AI flats and fully rendered illustrations. Each collection is shown from concept to garment assortment. I've also included industry work that I've archived throughout my years in the Fashion Industry</p>
+                    <h2 id="fashion"><a href="https://crystalbarnett1.wixsite.com/myporfolio" target="_blank">Fashion Portfolio</a></h2>
+                    <p>In my portfolio you will find collections complete with AI flats and fully rendered illustrations. Each collection is shown from concept to garment assortment. I've also included industry work that I've archived throughout my years in the Fashion Industry</p>
                 </section>
 
-                <hr>
+                <!--hr-->
 
                 <section class="outline">
-                    <p>This gives a full outline of not only my Web Development qualifications, but also a full break down of my Fashion design experience. Through viewing my <a href="#" target="_blank">resume</a> ,you should be able to get a complete picture of my capabilities as a Web Developer and as a Designer.</p>
+                    <h2 id="resume"><a href="#" target="_blank">Resume</a></h2>
+                    <p>This gives a full outline of not only my Web Development qualifications, but also a full break down of my Fashion design experience. Through viewing my ,you should be able to get a complete picture of my capabilities as a Web Developer and as a Designer.</p>
                 </section>
             </div>
    
     </main>
  
     <footer>
-        <h4>Contact Me |</h4>
             <ul>
+                <li><span>Contact Me |</span></li>
                 <li><a href="tel:+17189161240">Cell Number |</a></li>
                 <li><a href="crystal.barnett1@gmail.com" target="_blank">Email |</a></li>
                 <li><a href="https://www.linkedin.com/in/crystal-barnett-85151744/" target="_blank">LinkedIn |</a></li>
-                <li><a href="https://github.com/crystal-g-b">GitHub |</a></li>
+                <li><a href="https://github.com/crystal-g-b" target="_blank">GitHub |</a></li>
             </ul>  
     </footer>
 
