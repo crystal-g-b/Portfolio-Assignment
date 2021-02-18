@@ -7,7 +7,10 @@
 body {
     background-color: #F7F4F2;
     font-family: 'Poppins', sans-serif;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
 }
 
 .container {
@@ -15,7 +18,6 @@ body {
     background-color: #b7a2a0;
     color: #7C6362;
     font-size: 30px;
-    display: flex;
 }
 
 header {
@@ -26,8 +28,7 @@ header {
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #b7a2a0;
-    
+    background-color: #b7a2a0;   
 }
 
 nav a {
@@ -35,9 +36,22 @@ nav a {
     padding: 14px 20px;
 }
 
+main {
+    display: flex;    
+}  
+
 p {
     color: #7C6362;
     padding-right: 25px;
+    text-align: justify;
+}
+
+h2 {
+    float: left;
+    color: #7C6362; 
+    margin-right: 60px;
+    margin-top: 20px;
+    width: 120px
 }
 
 .subtitle {
@@ -57,151 +71,114 @@ hr {
     color: #7C6362;
     height: 3px;
     background-color: #7C6362;
-    width: 70%;
-    float: right;    
+    padding-left: 30px;  
 }
 
+
 aside {
-    float:left;
-    height: 1100px;
+    flex: 1;
+    width: 33%;
+    float: left;
   }
   
   aside img {
       max-height: 1100px;
-      max-width: 400px;
-      padding: 20px;
-      margin-left: 20px;
   }
 
-  main {
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  #aboutMe {
-      margin-top: .5%;
-      padding-top: 40px;
-      padding-bottom: 40px;
-  }
+  .deployed img:hover {
+    box-shadow: 5px 10px 18px #7C6362;
+}  
     
-
 .descriptions {
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    width: 1000px;
+    display: flex;
+    float: right;
+}
+
+.biography {
+    margin-top: 10px;
+}
+
+#aboutMe {
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
 .deployed {
     margin-top: 40px;
 }
 
+#stack {
+    text-align:left;
+}
+
 .refactor {
     position: relative;
+    color: #7C6362;    
 }
+
 .refactor img {
     height: 200px;
-    width: 800px;
+    width: 80%;
     object-fit: cover;
     border-style: solid;
     border-width: 4px;
     border-color: #C2C4C4;
     float: right; 
     position: relative;  
-    z-index: auto;
-
 }
 
-.refactor a {
-    color: #7C6362;
-    z-index: 1;
-    position: absolute;
-    margin-right: -20px;
-    margin-bottom: -80px;
-    background-color: #FFF;
+.refactor span {
     font-size: 20px;
 }
 
 .bio {
-    position: relative;
+    color: #7C6362;
+    font-size: 20px;
 }
 
 .bio img {
     height: 200px;
-    width: 400px;
+    width: 40%;
     object-fit: cover;
     float: right;
     border: 4px solid;
     border-color: #C2C4C4;
     position: relative;  
-    z-index: auto;
-}
-
-.bio a {
-    color: #7C6362;
-    z-index: 1;
-    position: absolute;
-    margin-right: -20px;
-    margin-bottom: -150px;
-    background-color: #FFF;
-    font-size: 20px;
 }
 
 .fan {
     position: relative;
+    color: #7C6362;
+    font-size: 20px;
 }
 
 .fan img {
     height: 200px;
-    width: 400px;
+    width: 40%;
     object-fit: scale-down;
     float: right;
     border-style: solid;
     border-width: 4px;
-    border-color: #C2C4C4;
-    position: relative;
-}
-
-.fan a {
-    color: #7C6362;
-    z-index: 1;
-    position: absolute;
-    margin-right: -20px;
-    margin-bottom: -150px;
-    background-color: #FFF;
-    font-size: 20px;
-}
-
-
-main img:hover {
-    box-shadow: 5px 10px 18px #7C6362;
+    border-color: #C2C4C4;  
 }
 
 .portfolio {
     margin-top: 60px;
     height: 80px;
     margin-bottom: 10px;
-    width: 980px;
+}
+
+.portfolio h2 {
+    margin-top: 0;
 }
 
 .outline {
     height: 130px;
     margin-top: 60px;
     margin-bottom: 10px;
-    width: 980px;
 }
 
-main hr {
-    color: #7C6362;
-    height: 3px;
-    background-color: #7C6362;
-    align-self: center;
-    margin-top: 15px;
-    margin-right: 20%;
-    margin-left: 20%;   
-}
 
 a:link {
     text-decoration: none;
@@ -220,23 +197,6 @@ footer {
     margin-top: 20px;
 }
 
-.biography {
-    margin-top: 10px;
-    width: 980px;
-}
-
-h2 {
-    float: left;
-    color: #7C6362; 
-    margin-right: 60px;
-    margin-top: 20px;
-    width: 120px
-}
-
-#stack {
-    text-align:left;
-    z-index: auto;
-}
 
 footer ul {
     font-family: 'Poppins', sans-serif;
@@ -256,7 +216,9 @@ span {
 }
 
 
-
+   .information {
+      flex-direction: column;
+    }
 
 
 
