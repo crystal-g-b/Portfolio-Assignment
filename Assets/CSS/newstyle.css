@@ -1,8 +1,6 @@
 :root {
     --ochre: #945A2A;
     --cream: #D8CFC5;
-    --lightGrey: #F7F4F2;
-    --offGrey: #C2C4C4;
 }
 
 * {
@@ -16,7 +14,28 @@
     color: var(--cream);
 }
 
-nav a {
+body {
+    background-color: var(--ochre) ;
+}
+
+#myName {
     color: var(--cream);
 }
+
+#firstPage {
+    color: var(--cream);
+}
+
+#enter {
+    background-color: var(--ochre);
+    border-color: var(--cream);      
+}
+
+button a {
+    color: var(--cream); 
+}
+#introduction {
+    margin-top: 70px;
+}
+
 
