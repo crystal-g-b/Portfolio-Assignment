@@ -23,10 +23,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Graphic Design</a>
+                  <a class="nav-link" href="#" role="button" data-toggle="modal" data-target="#bioModal">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,58 +34,13 @@
                   <a class="dropdown-item" style="color: #D8CFC5;" href="#">Web Api Code Quiz</a>
                 </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Graphic Design</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-
-    <!--div class="jumbotron" style="background-color: #D8CFC5;">
-        <div id="accordion">
-            <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                </button>
-                </h5>
-            </div>
-            
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-            </div>
-            <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-            </div>
-            <div class="card">
-            <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                </button>
-                </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-            </div>
-            </div>
-        </div>
-    </div-->
     <section class="jumbotron jumbotron-fluid custom-jumbotron mt-3" style="background-color: #D8CFC5;">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -99,13 +51,34 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="./Assets/images/profile-pic.jpg" alt="First slide">
+                    <img class="d-block w-100" src="./Assets/images/about-me-carousel.png" alt="Crystal B">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption" class="float-right">
+                            <h5>About Me</h5>
+                            <p>A brief overview of the web developer</p>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#bioModal" style="background-color: #083533; color: #945A2A;">Click Here</a>
+                        </div>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Second slide">
+                    <img class="d-block w-100" src="./Assets/images/webDev-carousel.png" alt="Full stack">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption" class="float-right">
+                            <h5>Web Development Projects</h5>
+                            <p>Click here to view various projects</p>
+                            <a class="btn" href="#" role="button" style="background-color: #083533; color: #945A2A;">Click Here</a>
+                        </div>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Third slide">
+                    <img class="d-block w-100" src="Assets/images/graphic-design-carousel.png" alt="graphic design">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div id="caption" class="float-left">
+                            <h5>Graphic Design</h5>
+                            <p>Click here to view various projects</p>
+                            <a class="btn" href="#" role="button" style="background-color: #083533; color: #945A2A;">Click Here</a>
+                        </div>
+                    </div>
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -119,6 +92,33 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="bioModal" tabindex="-1" role="dialog" aria-labelledby="bioModalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="bioModalTitle">About Me</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-thumbnail" src="./Assets/images/profile-pic.jpg" alt="My profile pic">
+                        </div>
+                    </div>
+                </div>
+                <p>This is my Bio</p>
+                <a class="btn" href="./Assets/images/Crystal Barnett Resume.pdf" role="button" download="resume" style="color: #D8CFC5;">Download Resume</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
