@@ -12,7 +12,7 @@ After this I created my CSS file and a JS file, so I could add additional stylin
 
 In then end, all files came together to produce a fully functioning website, where the user can get an overview on what portfolio entails and links to all outside sources and websites.
 
-![website](/Assets/myPortfolio.png)
+![website](/Assets/images/myPortfolio.png)
 
 Please see the link below for the finished product.
 
