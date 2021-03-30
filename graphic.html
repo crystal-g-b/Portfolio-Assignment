@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="./Assets/images/shortcut-icon.png"/>
+    <link rel="stylesheet" href="https:fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/mainpage.css">
+    <title>Crystal's Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #945A2A;">
+        <a class="navbar-brand" href="#">
+            <img src="Assets/images/shortcut-icon.png" width="60" height="60" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" role="button" data-toggle="modal" data-target="#bioModal">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Web Development Projects
+                  </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #945A2A">
+                  <a class="dropdown-item" style="color: #D8CFC5;" href="#" role="button" data-toggle="modal" data-target="#webDevModal">Last Resort: Social App</a>
+                  <a class="dropdown-item" style="color: #D8CFC5;" href="#" role="button" data-toggle="modal" data-target="#webDevModal">Web Api Code Quiz</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Graphic Design</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron jumbotron-fluid custom-jumbotron mt-3" style="background-color: #D8CFC5;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body" style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#hairModal">
+                        <img class="img-thumbnail" data-toggle="tooltip" data-placement="bottom" title="The HairStory Project: click here" src="./Assets/images/LOGO 2.png" alt="hairStory logo">
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-3">
+                  <div class="card">
+                    <div class="card-body" style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#candleModal">
+                        <img class="img-thumbnail" src="./Assets/images/candle.jpeg" alt="by candle light">
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body"style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#hillModal">
+                        <img class="img-thumbnail" src="./Assets/images/laurynhill.jpeg" alt="lauryn hill">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body" style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#magicModal">
+                        <img class="img-thumbnail" src="./Assets/images/magicrocks.jpeg" alt="magic rocks">
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body" style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#beyonceModal">
+                        <img class="img-thumbnail" src="./Assets/images/beyonce.jpeg" alt="beyonce">
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                      <div class="card-body" style="background-color: #D8CFC5;">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gardenModal">
+                        <img class="img-thumbnail" src="./Assets/images/flower.jpeg" alt="hair garden">
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="hairModal" tabindex="-1" role="dialog" aria-labelledby="hairModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="hairModalTitle">Graphic Design Freelance Project</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>The HairStory Project was a freelance graphic design project that I created content for. In the below image, you can see my concept, color story and final product.</p>
+                        <img class="img-thumbnail" src="./Assets/images/CONCEPT-AND-COLOUR-7-29_Page_1.jpg" alt="hairStory">
+                        <img class="img-thumbnail" src="./Assets/images/CONCEPT-AND-COLOUR-7-29_Page_2.jpg" alt="hairStory">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="candleModal" tabindex="-1" role="dialog" aria-labelledby="candleModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="candleModalTitle">Vector Art: 'Will you light my candle?'</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-thumbnail" src="./Assets/images/candle.jpeg" alt="candle">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="hillModal" tabindex="-1" role="dialog" aria-labelledby="hillModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="hillModalTitle">Vector Art: 'Lauryn Hill'</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-thumbnail" src="./Assets/images/laurynhill.jpeg" alt="lauryn">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="magicModal" tabindex="-1" role="dialog" aria-labelledby="magicModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="magicModalTitle">Vector Art: 'It's magic!'</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-thumbnail" src="./Assets/images/magicrocks.jpeg" alt="magic rocks">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="beyonceModal" tabindex="-1" role="dialog" aria-labelledby="beyonceModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="beyonceModalTitle">Vector Art: 'It's magic!'</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-thumbnail" src="./Assets/images/beyonce.jpeg" alt="beyonce">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="gardenModal" tabindex="-1" role="dialog" aria-labelledby="gardenModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content" style="background-color: #945A2A; color: #D8CFC5;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="gardenModalTitle">Vector Art: 'It's magic!'</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img class="img-thumbnail" src="./Assets/images/flower.jpeg" alt="hair garden">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color: #945A2A;">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                     
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
