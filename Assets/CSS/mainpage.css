@@ -16,3 +16,7 @@ body {
 #caption {
     padding-bottom: 150px;
 }
+
+li {
+    color: var(--ochre);
+}

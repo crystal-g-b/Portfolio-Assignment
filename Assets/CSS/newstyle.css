@@ -9,11 +9,6 @@
     margin: 0;
 }
 
-.jumbotron {
-    background-color: var(--ochre);
-    color: var(--cream);
-}
-
 body {
     background-color: var(--ochre) ;
 }
